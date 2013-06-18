@@ -1,0 +1,17 @@
+#ifndef ERRORS_H
+#define ERRORS_H
+
+  #define INVALID_OPTIONS_GIVEN 1;  
+
+  #define  HEX_NO_ARG   11;
+  #define HEX_INVALID_ARG   12;
+
+  #define HSV_WRONG_NUMBER_OF_ARGS 21;
+  #define HSV_WRONG_ARGUMENTS 22;
+
+  #define RGB1_WRONG_NUMBER_OF_ARGS 31;
+  #define RGB1_WRONG_ARGUMENTS 32;
+
+  #define RGB2_WRONG_NUMBER_OF_ARGS 41;
+  #define RGB2_WRONG_ARGUMENTS 42;
+#endif
