@@ -47,13 +47,13 @@ source files
 
 short overview of the source files:
 
--build.sh ............... a build script, assuming that you use gcc.
--cnames2.c .............. the main program
--colordefinitions.c/.h .. color "database"
--colordistance.c/.h ..... calculate the distance of two points in RGB space
--errors.h ............... define some error codes
--getoptions.c/.h ........ handle command line options
--messages.c/.h .......... various output functions
--rgbconversion.c/.h ..... functions to parse and convert different color inputs
--structdefs.h ........... structure definitions
+* build.sh ............... a build script, assuming that you use gcc.
+* cnames2.c .............. the main program
+* colordefinitions.c/.h .. color "database"
+* colordistance.c/.h ..... calculate the distance of two points in RGB space
+* errors.h ............... define some error codes
+* getoptions.c/.h ........ handle command line options
+* messages.c/.h .......... various output functions
+* rgbconversion.c/.h ..... functions to parse and convert different color inputs
+* structdefs.h ........... structure definitions
 
