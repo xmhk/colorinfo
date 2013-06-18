@@ -24,22 +24,22 @@ usage
    *  **-R** or **--RGB** *R G B*          rgb input. ( *R,G,G* real number 0...1)
 
 
-* HEX-Mode: a string with 6 characters, ranging from 0..9 and A..F
+* HEX-Mode: a string with 6 characters, ranging from 0..9 and A..F.
   examples:
     * colorinfo -x AA00CC
     * colorinfo --hex --verbose BBBB77
 
-* rgb 1 Mode: three RGB values as integers, ranging from 0 to 255 separated by spaces
+* rgb 1 Mode: three RGB values as integers, ranging from 0 to 255 separated by spaces.
   examples:
     * colorinfo -r 22 33 255
     * colorinfo --rgb --verbose 00 12 255 
 
-* rgb2 Mode: the RGB values are given as real numbers between 0 and one
+* rgb2 Mode: the RGB values are given as real numbers between 0 and 1.
   examples:
     * colorinfo -R 0.2 0.3 0.5
     * colorinfo --RGB --verbose 0.0 1.0 0.5
 
-* HSV Mode: three real numbers. Hue given as angle (0..360), Saturation and Value as real numbers (0..1)
+* HSV Mode: three real numbers. Hue given as angle (0..360), Saturation and Value as real numbers (0..1).
   examples:
     * colorinfo -s 200 0.1 0.9
     * colorinfo --hsv 355 0.5 0.6
