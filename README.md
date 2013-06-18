@@ -14,14 +14,14 @@ usage
  usage: colorinfo [OPTARG] [MODE] [C1] [C2] [C3]
  
  OPTARGs:
-         -h  --help        print this message
-         -v  --verbose     verbose output
+    *     -h  --help        print this message
+    *     -v  --verbose     verbose output
 
  MODEs:
-         -x  --hex S       hex input. (S as Hex-String)
-         -s  --hsv H S V   hsv input. (H real 0...360. S,V real 0..1)
-         -r  --rgb R G B   rgb input. (R..G integers 0...255)
-         -R  --RGB R G B   rgb input. (R..G real number 0...1)
+    *     -x  --hex S       hex input. (S as Hex-String)
+    *     -s  --hsv H S V   hsv input. (H real 0...360. S,V real 0..1)
+    *     -r  --rgb R G B   rgb input. (R..G integers 0...255)
+    *     -R  --RGB R G B   rgb input. (R..G real number 0...1)
 
 
 * HEX-Mode: a string with 6 characters, ranging from 0..9 and A..F
